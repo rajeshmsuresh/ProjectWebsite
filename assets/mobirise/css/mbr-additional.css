@@ -49,10 +49,10 @@ body {
 }
 .display-7 {
   font-family: 'Roboto', sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 1.6rem;
+  font-size: 1.92rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -654,13 +654,13 @@ a:hover {
   box-shadow: none;
   color: #565656;
   font-family: 'Roboto', sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.43;
   min-height: 3.5em;
   padding: 1.07em .5em;
 }
 .form-control > .mbr-iconfont {
-  font-size: 1.6rem;
+  font-size: 1.92rem;
 }
 .form-control,
 .form-control:focus {
@@ -1994,6 +1994,9 @@ body {
   text-align: center;
 }
 .cid-qLIq6JbZ5v DIV {
+  text-align: left;
+}
+.cid-qLIq6JbZ5v P {
   text-align: center;
 }
 .cid-qMfA4GUxr1 {
@@ -2275,6 +2278,28 @@ body {
 .cid-qMg3IJDvhc H2 {
   color: #ffcc05;
 }
+.cid-qMgILt3Ic5 {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-image: url("../../../assets/images/mbr-5-1620x1080.jpg");
+}
+@media (min-width: 992px) {
+  .cid-qMgILt3Ic5 .mbr-figure {
+    padding-left: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-qMgILt3Ic5 .mbr-figure {
+    padding-top: 3rem;
+  }
+}
+.cid-qMgILt3Ic5 .mbr-text,
+.cid-qMgILt3Ic5 .mbr-section-btn P {
+  text-align: left;
+}
+.cid-qMgILt3Ic5 .mbr-section-title {
+  text-align: left;
+}
 .cid-qLMubzQEYg {
   padding-top: 45px;
   padding-bottom: 30px;
@@ -2285,7 +2310,7 @@ body {
 }
 .cid-qLMu490WsK {
   padding-top: 45px;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
   background-color: #ffffff;
 }
 .cid-qLMu490WsK h2 {
@@ -2751,18 +2776,6 @@ body {
 .cid-qM9SkgOuds .input-group-btn {
   display: block;
   text-align: center;
-}
-.cid-qMg68Ume6M {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  background: linear-gradient(0deg, #ffffff, #ffcc05);
-}
-.cid-qMg68Ume6M .mbr-iconfont-social {
-  font-size: 32px;
-  color: #ff3366;
-}
-.cid-qMg68Ume6M .social-list a:focus {
-  text-decoration: none;
 }
 .cid-qMaqFy4Rcq {
   padding-top: 45px;
