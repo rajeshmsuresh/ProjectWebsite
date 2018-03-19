@@ -23,7 +23,7 @@ function initClientCarousel(card){
     $target.find('.carousel-item .col-md-12').each(function() {
         if (visibleSlides < 2) {
             $(this).attr('class', 'col-md-12');
-        } else if (visibleSlides == '4') {
+        } else if (visibleSlides == '5') {
             $(this).attr('class', 'col-md-12 col-lg-15');
         } else {
             $(this).attr('class', 'col-md-12 col-lg-' + 12 / visibleSlides);
